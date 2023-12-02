@@ -2,6 +2,7 @@ h1, h2, h3, h4, h5, h6, p, ul {
     margin: 0;
     padding: 0;
 }
+
 body {
 font-family: 'Roboto', sans-serif;
 color: #434455;
@@ -12,16 +13,27 @@ line-height: 24px;
 a {
     text-decoration: none;
 }
+
 li {
     list-style: none;
 }
+
+img {
+    display: block;
+}
+
 .section-promo {
     background-color: #2E2F42;
 }
+
 .section-team {
     background-color: #F4F4FD;
 }
 
+/* HEADER */
+.header {
+border-bottom: 1px solid #e7e9fc;
+}
 /* Logo */
 .logo-header {
     font-family: 'Raleway', sans-serif;
