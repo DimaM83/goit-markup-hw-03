@@ -38,6 +38,7 @@ border-bottom: 1px solid #e7e9fc;
     width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
+    display: flex;
 }
 .navigations {
     display: flex;
@@ -63,6 +64,7 @@ border-bottom: 1px solid #e7e9fc;
 .menu-ul {
     gap: 40px;
     display: flex;
+    padding: 24px 0;
 }
 .active {
     font-weight: 500;
@@ -84,11 +86,12 @@ address {
 .contact-ul {
     gap: 40px;
     display: flex;
+    padding: 24px 0;
 }
-.contact-li {
+/* .contact-li {
     gap: 40px;
     display: flex;
-}
+} */
 .mail {
     letter-spacing: 0.02em;
     color: #434455;
