@@ -137,8 +137,8 @@ address {
   background-color: #404bbf;
 }
 
-/* PECULIARITTES Section 2 */
-.section-peculiartties {
+/* PECULIARITIES Section 2 */
+.section-peculiarities {
   padding: 120px 0;
 }
 .visually-hidden {
@@ -154,9 +154,12 @@ address {
   border: 0;
 }
 
-.peculiartties-ul {
+.peculiarities-ul {
     display: flex;
     gap: 24px;
+}
+.peculiarities-li {
+  width: calc(100% - 72px)/4;
 }
 .item-title {
   font-weight: 500;
