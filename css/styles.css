@@ -129,7 +129,6 @@ address {
   height: 56px;
   border: none;
   border-radius: 4px;
-  
 }
 .btn:hover {
   background-color: #404bbf;
@@ -137,7 +136,15 @@ address {
 .btn:focus {
   background-color: #404bbf;
 }
+
 /* PECULIARITTES Section 2 */
+.section-peculiartties {
+  padding: 120px 0;
+}
+.peculiartties-ul {
+    display: flex;
+    gap: 24px;
+}
 .item-title {
   font-weight: 500;
   font-size: 20px;
